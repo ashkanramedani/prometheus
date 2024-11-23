@@ -15,17 +15,17 @@ Prometheus is an open-source systems monitoring and alerting toolkit designed fo
    ```bash
    git clone https://github.com/your-repo/prometheus-monitoring.git
    cd prometheus-monitoring
+   
 2. Start the services using Docker Compose:
-
-```bash
-docker-compose up -d
-Access Prometheus at:
+   ```bash
+   docker-compose up -d
+   Access Prometheus at:
 
 3. arduino
-```bash
-http://<YOUR_SERVER_IP>:9090
-Add Grafana (if included) and access it at:
+   ```bash
+   http://<YOUR_SERVER_IP>:9090
+   Add Grafana (if included) and access it at:
 
 4. arduino
-```bash
-http://<YOUR_SERVER_IP>:3000
+   ```bash
+   http://<YOUR_SERVER_IP>:3000
